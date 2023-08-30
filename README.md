@@ -1,4 +1,6 @@
 # Running
-python manage.py runserver (Windows)
+Windows
+python manage.py runserver
 
-./manage.py runserver (Unix)
+Unix
+./manage.py runserver
