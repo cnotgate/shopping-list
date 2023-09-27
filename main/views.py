@@ -85,7 +85,9 @@ def login_user(request):
         if user is not None:
             login(request, user)
             response = HttpResponseRedirect(reverse("main:show_main"))
-            response.set_cookie('last_login', str(datetime.datetime.now()))
+            date = datetime.datetime.now()
+            response.set_cookie('last_login', str(
+                date.strftime("%d %B, %Y, %H:%M")))
             return response
         else:
             messages.info(
