@@ -1,7 +1,7 @@
 import json
 from django.shortcuts import render
 import datetime
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, JsonResponse
 from django.urls import reverse
 from django.http import HttpResponse, HttpResponseNotFound
 from django.core import serializers

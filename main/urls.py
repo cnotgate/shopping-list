@@ -1,5 +1,5 @@
 from django.urls import path
-from main.views import create_product_flutter, show_main, register, login_user, logout_user, create_product, show_xml, show_json, show_json_by_id, show_xml_by_id, edit_product, delete_product, get_product_json, add_product_ajax
+from main.views import create_product_flutter, logout, show_main, register, login_user, logout_user, create_product, show_xml, show_json, show_json_by_id, show_xml_by_id, edit_product, delete_product, get_product_json, add_product_ajax
 
 app_name = 'main'
 
